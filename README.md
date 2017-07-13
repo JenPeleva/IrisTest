@@ -8,7 +8,7 @@ repository a subtree of the IrisTest repo.
 ## How do we create the subtree?
 
 The subtree is created with the following command, executed in the IrisTest directory:
-"git subtree add --prefix StylesTest https://github.com/JenPeleva/StylesTest master --squash", where:
+```"git subtree add --prefix StylesTest https://github.com/JenPeleva/StylesTest master --squash``` , where:
 + ```--prefix StylesTest``` - StylesTest is the path/folder, relative to IrisTest's root, in which our subtree will
  reside (this should be the path to a new folder in IrisTest).
 + ```--squash``` - The common practice is to not store the entire history of the subproject in your main repository,
