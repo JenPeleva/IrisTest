@@ -1,1 +1,1 @@
-Jeina
+Jeina peleva
