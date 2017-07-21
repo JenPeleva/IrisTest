@@ -1,0 +1,11 @@
+:root {
+    --h1-font-size: 40px;
+    /*--body-bg-color: yellowgreen;*/
+    /*--body-bg-color: salmon;*/
+    /*--body-bg-color: gold;*/
+    --body-bg-color: white;
+    /*--body-color: #fff;*/
+    --body-color: #000;
+    --body-font-size: 100%;
+    --img-filtergray: scale(1);
+}

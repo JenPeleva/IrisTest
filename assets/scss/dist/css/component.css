@@ -1,6 +1,3 @@
-.vendor {
-  background: red; }
-
 body {
   width: var(--body-width, 50%);
   margin: var(--body-mt, 70px) auto;
