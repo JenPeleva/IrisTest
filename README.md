@@ -30,3 +30,5 @@ those changes to master. If a change to the StylesTest repo is made through its 
 If the subtree repo is ahead of our subtree, git won't allow us to push any changes to StylesTest before pulling first. If
 merge conflicts occur after pulling the latest version from StylesTest, conflicts are managed the same way as standard
 merge conflicts.
+
+*[ABBR]: Markdown plus abbreviations (produces an tag)
