@@ -1,0 +1,9 @@
+{
+  "name": "MyProject",
+  "dependencies": {
+    "node-sass": "^3.10.1"
+  },
+  "scripts": {
+    "sass": "node-sass --output-style compressed -o css style.scss"
+  }
+}
