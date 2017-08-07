@@ -1,9 +1,13 @@
 {
   "name": "MyProject",
   "dependencies": {
-    "node-sass": "^3.10.1"
+    "node-sass": "^3.10.1",
+    "postcss": "6.0.7",
+    "postcss-cli": "^4.1.0",
+    "postcss-color-function": "4.0.0"
   },
   "scripts": {
-    "sass": "node-sass --output-style compressed -o assets/scss/dist/css assets/scss/src/style.scss"
+    "css": "node-sass --output-style compressed -o assets/scss/dist/css assets/scss/src/style.scss",
+    "css:watch": "npm run css && node-sass assets/scss/src/style.scss -wo assets/scss/dist/css"
   }
 }
